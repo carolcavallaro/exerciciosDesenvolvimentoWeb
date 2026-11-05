@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página Estilizada</title>
+
+    <!--Normalmente, o código CSS se coloca dentro da tag <head> entre a tag <style>-->
+    
+    <style>
+        
+        h1{color: blueviolet; font-size: large; background-color: cornflowerblue;}
+        
+        .superTitulo{color: darkblue;} /* Ao classificar um elemento, não precisa nomear as tags e sim as class */
+        #tituloPrincipal{font-size: 90px;} /* O id funciona como o class, mas para chamar, se usa # e não . */
+        /* class e id servem para "ordens" específicas */
+        
+        h1, p{font: optional;}
+        h1.superTitulo{} /* Serve para especificar mais ainda. E também pode somar o id aqui */
+        p{background-color: cornflowerblue; color: blue; font-size: small;}
+
+        .minhaLista li{
+            color: crimson;
+        }
+        
+    </style>
+</head>
+
+<body>
+
+    <h1 class="superTitulo" id="tituloPrincipal">TíTulo</h1>
+    
+    <ul class="minhaLista">
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+    </ul>
+    <br>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea voluptatum, tenetur laudantium ex consequatur sit quo, itaque vitae provident corrupti voluptate ad cupiditate odit deserunt. Temporibus blanditiis perferendis voluptates rem.</p>
+    <br>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor voluptate obcaecati odit aut perspiciatis ullam ratione qui minima sapiente, harum mollitia praesentium repellat et veniam vero eum. Adipisci debitis esse dolores facilis, similique consectetur quidem excepturi vitae! Repellat dignissimos consequatur labore fugit neque veritatis corrupti id corporis deserunt ducimus quae temporibus pariatur est, recusandae eos laudantium blanditiis maxime praesentium reprehenderit? Tenetur, illo voluptatibus doloremque cupiditate ut nihil ratione unde porro aperiam! Expedita ratione voluptates corrupti tempore necessitatibus! Voluptate, hic! Voluptates, ab nisi. Ratione, sunt, eum ad consectetur corporis, assumenda deleniti ab est minus aliquam temporibus ea accusantium beatae blanditiis voluptate?</p>
+    
+</body>
+</html>

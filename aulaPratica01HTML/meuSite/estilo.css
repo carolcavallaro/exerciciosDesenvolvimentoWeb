@@ -1,0 +1,28 @@
+h1{color: blueviolet; font-size: large; background-color: cornflowerblue;}
+       
+.superTitulo{color: darkblue;} /* Ao classificar um elemento, não precisa nomear as tags e sim as class */
+#tituloPrincipal{font-size: 90px;} /* O id funciona como o class, mas para chamar, se usa # e não . */
+/* class e id servem para "ordens" específicas */
+        
+h1, p{font: optional;}
+h1.superTitulo{} /* Serve para especificar mais ainda. E também pode somar o id aqui */
+p{background-color: cornflowerblue; color: blue; font-size: small;}
+
+.minhaLista li{
+    color: crimson;
+}
+
+body{background-color: rgb(182, 118, 207);}
+
+/* Dá para colocar imagem como background:
+body{background-image:url("uninter.png")
+ou
+body{background-image:"uninter.png" */
+
+.caixa{
+    margin: 10px;
+    padding: 20px;
+    border: 4px solid black;
+    width: fit-content;
+    background-color: deeppink;
+}

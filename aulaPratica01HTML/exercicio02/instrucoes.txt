@@ -1,0 +1,4 @@
+Exercício 2:
+
+Crie uma tabela com três linhas. A primeira deve possuir três colunas; a segunda, duas; e a terceira, apenas uma.
+Desafio: faça a tabela ficar no formato utilizando o atributo colspan.

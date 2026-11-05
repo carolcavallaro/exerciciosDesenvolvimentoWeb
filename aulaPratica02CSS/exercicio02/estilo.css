@@ -1,0 +1,15 @@
+.imagem{
+    background: url("logoUninter01.jpg") no-repeat;
+    width: 200px;
+    height: 200px;
+    display: block;
+    background-size: contain;
+}
+
+.imagem:hover{
+    background-position: 10px 10px;
+}
+
+.imagem:active{
+    background-position: 15px 15px;
+}

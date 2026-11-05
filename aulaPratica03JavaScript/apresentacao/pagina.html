@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <p id="paragrafo1">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quam, harum soluta? Sit eos praesentium officiis, placeat hic error in quae esse. Eaque hic error molestias iste aliquid, veritatis praesentium exercitationem!</p>
+
+    <button onclick="document.getElementById('paragrafo1').innerHTML='Olá, mundo!'">Me clique!</button> <!-- É também possível colocar o código JavaScript dentro do HTML, como nesse exemplo. -->
+    <script> // usado para o conteúdo JavaScript. Pode ser usado em qualquer lugar da Página e pode-se usar várias vezes a mesma tag. No entanto, as Boas Práticas recomendam que deve ser usada no final do <body>.
+    // O ideal sempre, é criar um novo arquivo, assim como o CSS
+        console.log("Olá, mundo!");
+    </script>
+
+    <!-- Para adicionar o arquivo externo de JavaScript, faz-se da seguinte forma: -->
+     <script src="script.js"></script>
+</body>
+</html>

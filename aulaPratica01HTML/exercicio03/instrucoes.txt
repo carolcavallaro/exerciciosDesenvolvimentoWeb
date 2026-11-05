@@ -1,0 +1,4 @@
+Exercício 3:
+
+Crie uma tabela com duas colunas ("Gatos" e "Cachorros") e crie três linhas contendo fotos dos animais em suas respectivas colunas. 
+Cada imagem deve ser um link.
